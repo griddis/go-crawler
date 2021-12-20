@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/griddis/atlant_test/tools/logging"
+	logging "github.com/griddis/go-logger"
 )
 
 type Crawler struct {
