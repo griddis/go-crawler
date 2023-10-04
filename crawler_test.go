@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/griddis/atlant_test/tools/logging"
+	logging "github.com/griddis/go-logger"
 )
 
 func TestCrawler_Close(t *testing.T) {
